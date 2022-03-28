@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array_spinner_status">
+        <item>تم التوصيل</item>
+        <item>ارجاع مبدئي</item>
+        <item>تم الارجاع</item>
+        <item>جديد</item>
+    </string-array>
+
+    <string-array name="array_spinner_return_reasons">
+        <item>السبب 1</item>
+        <item>خلل مصنعي</item>
+        <item>سبب اخر</item>
+    </string-array>
+</resources>

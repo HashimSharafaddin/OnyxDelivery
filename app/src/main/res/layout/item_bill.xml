@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="@dimen/_3sdp"
+    android:padding="@dimen/_3sdp"
+    >
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="@dimen/_170sdp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/tv_qty"
+        android:textSize="@dimen/_10sdp"
+        android:paddingTop="@dimen/_3sdp"
+        android:paddingBottom="@dimen/_3sdp"
+        android:paddingStart="@dimen/_3sdp"
+        android:paddingEnd="@dimen/_5sdp"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_3sdp"
+        android:layout_marginBottom="@dimen/_3sdp"
+        android:layout_marginEnd="@dimen/_3sdp"
+        android:textColor="@color/black"
+        />
+
+
+    <TextView
+        android:id="@+id/tv_qty"
+        android:layout_width="@dimen/_60sdp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@id/tv_name"
+        app:layout_constraintEnd_toStartOf="@id/tv_price"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:padding="@dimen/_3sdp"
+        android:layout_margin="@dimen/_3sdp"
+        android:textSize="@dimen/_10sdp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary2"
+        android:text=""
+        android:gravity="center"
+
+        />
+
+    <TextView
+        android:id="@+id/tv_price"
+        android:layout_width="@dimen/_60sdp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@id/tv_qty"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        android:padding="@dimen/_3sdp"
+        android:layout_margin="@dimen/_3sdp"
+        android:textSize="@dimen/_10sdp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary2"
+        android:text="5"
+        android:gravity="center"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="@dimen/_250sdp"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:padding="@dimen/_5sdp">
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="Filter"
+        android:layout_marginTop="@dimen/_5sdp"
+
+        android:textSize="@dimen/_15sdp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary2"/>
+
+
+
+
+
+
+    <TextView
+        android:id="@+id/txt_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Order Status"
+        android:paddingEnd="@dimen/_10sdp"
+        android:paddingStart="@dimen/_10sdp"
+        android:paddingTop="@dimen/_5sdp"
+        android:paddingBottom="@dimen/_5sdp"
+        android:gravity="center"
+        android:textColor="@color/colorPrimary2"
+        app:layout_constraintTop_toBottomOf="@id/title"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_25sdp"
+        android:textSize="@dimen/_12sdp"/>
+
+
+    <Spinner
+        android:id="@+id/spinner_order_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/txt_status"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:padding="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:layout_marginEnd="@dimen/_20sdp"
+        />
+
+
+
+    <TextView
+        android:id="@+id/txt_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Order Date"
+        android:paddingEnd="@dimen/_10sdp"
+        android:paddingStart="@dimen/_10sdp"
+        android:paddingTop="@dimen/_5sdp"
+        android:paddingBottom="@dimen/_5sdp"
+        android:gravity="center"
+        android:textColor="@color/colorPrimary2"
+        app:layout_constraintTop_toBottomOf="@id/spinner_order_status"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_25sdp"
+        android:textSize="@dimen/_12sdp"/>
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_from"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="From    "
+        android:paddingEnd="@dimen/_10sdp"
+        android:paddingStart="@dimen/_10sdp"
+        android:paddingTop="@dimen/_5sdp"
+        android:paddingBottom="@dimen/_5sdp"
+        android:backgroundTint="@color/white"
+        android:drawableEnd="@drawable/ic_date"
+        android:gravity="center"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary2"
+        app:layout_constraintTop_toBottomOf="@id/txt_date"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:textSize="@dimen/_12sdp"/>
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_to"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To     "
+        android:paddingEnd="@dimen/_10sdp"
+        android:paddingStart="@dimen/_10sdp"
+        android:paddingTop="@dimen/_5sdp"
+        android:paddingBottom="@dimen/_5sdp"
+        android:backgroundTint="@color/white"
+        android:drawableEnd="@drawable/ic_date"
+        android:gravity="center"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary2"
+        app:layout_constraintTop_toTopOf="@id/btn_from"
+        app:layout_constraintBottom_toBottomOf="@id/btn_from"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_marginEnd="@dimen/_15sdp"
+
+        android:textSize="@dimen/_12sdp"
+
+        />
+
+
+    <Button
+        android:id="@+id/btn_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_marginEnd="@dimen/_30sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:text="Cancel"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_to"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary2"
+        android:textSize="@dimen/_12sdp"
+        android:backgroundTint="@color/white"
+        android:elevation="@dimen/_5sdp"
+        android:paddingEnd="@dimen/_25sdp"
+        android:paddingStart="@dimen/_25sdp"
+        android:paddingTop="@dimen/_5sdp"
+        android:paddingBottom="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+
+        />
+
+    <Button
+        android:id="@+id/btn_apply"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginStart="@dimen/_30sdp"
+        android:layout_marginEnd="@dimen/_15sdp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/btn_cancel"
+        app:layout_constraintStart_toEndOf="@id/btn_cancel"
+        android:text="Apply"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_12sdp"
+        android:backgroundTint="@color/colorPrimary2"
+        android:paddingEnd="@dimen/_25sdp"
+        android:paddingStart="@dimen/_25sdp"
+        android:paddingTop="@dimen/_5sdp"
+        android:paddingBottom="@dimen/_5sdp"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>

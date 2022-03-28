@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TasK</string>
+    <string name="welcome_back">مرحباًاً</string>
+    <string name="log_back">قم بتسجيل الدخول مرة أخرى</string>
+    <string name="user_id">رقم المستخدم</string>
+    <string name="password">كلمة المرور</string>
+    <string name="login">دخول</string>
+    <string name="order_details">تفاصيل الطلب</string>
+    <string name="customer_details">تفاصيل العميل</string>
+    <string name="customer_name">اسم العميل:</string>
+    <string name="order_no">رقم الطلب:</string>
+
+    <string name="order_date">تاريخ الطلب:</string>
+    <string name="pay_option">طريقة الدفع:</string>
+    <string name="subtotal">المجموع</string>
+    <string name="total">الاجمالي</string>
+    <string name="taxes">الضريبة</string>
+    <string name="items">العناصر</string>
+    <string name="quantity">الكمية</string>
+    <string name="price">السعر</string>
+    <string name="delivery">التوصيل</string>
+    <string name="discount">التخفيض</string>
+    <string name="location_details">تفاصيل الموقع</string>
+    <string name="address">العنوان:</string>
+    <string name="mobile">رقم الهاتف:</string>
+    <string name="reason">السبب</string>
+    <string name="order_status">حالة الطلب</string>
+    <string name="return_reason">سبب الإرجاع</string>
+    <string name="type_return_reason">يرجى كتابة سبب إرجاع الطلب :</string>
+    <string name="save_changes">حفظ التغييرات</string>
+
+    <string name="new_">جديد</string>
+    <string name="others">أخرى</string>
+    <string name="filter">تصفية</string>
+    <string name="no_orders">لا يوجد طلبات</string>
+    <string name="no_orders_text">You don`t have any orders in your history</string>
+
+
+    <string name="no_connection">  لا يوجد اتصال بالانترنت</string>
+    <string name="no_connection_text">There was an issue connecting to the server, Check your internet connection and retry.</string>
+    <string name="retry"> اعادة المحاولة</string>
+    <string name="close"> إغلاق </string>
+
+    <string name="status"> الحالة</string>
+    <string name="total_price"> إجمالي السعر</string>
+    <string name="date"> التاريخ</string>
+
+    <string name="loading">تحميل</string>
+    <string name="please_waite"> يرجى الانتظار</string>
+    <integer name="mirror"> 180</integer>
+
+
+
+</resources>

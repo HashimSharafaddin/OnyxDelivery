@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array_spinner_status">
+        <item>Delivered</item>
+        <item>Partial Return</item>
+        <item>Returned</item>
+        <item>New</item>
+    </string-array>
+
+    <string-array name="array_spinner_return_reasons">
+        <item>Reason1</item>
+        <item>Manufacturing defect</item>
+        <item>Other</item>
+    </string-array>
+</resources>
